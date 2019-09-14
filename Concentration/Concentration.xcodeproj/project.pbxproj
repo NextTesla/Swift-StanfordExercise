@@ -12,6 +12,8 @@
 		3C658663232BA32F00856667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C658661232BA32F00856667 /* Main.storyboard */; };
 		3C658665232BA32F00856667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C658664232BA32F00856667 /* Assets.xcassets */; };
 		3C658668232BA32F00856667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C658666232BA32F00856667 /* LaunchScreen.storyboard */; };
+		3CA8BCD1232BC91C009C1D86 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8BCD0232BC91C009C1D86 /* Concentration.swift */; };
+		3CA8BCD3232BCB00009C1D86 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8BCD2232BCB00009C1D86 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3C658664232BA32F00856667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C658667232BA32F00856667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C658669232BA32F00856667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA8BCD0232BC91C009C1D86 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		3CA8BCD2232BCB00009C1D86 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				3C65865F232BA32F00856667 /* ViewController.swift */,
+				3CA8BCD2232BCB00009C1D86 /* Card.swift */,
+				3CA8BCD0232BC91C009C1D86 /* Concentration.swift */,
 				3C658661232BA32F00856667 /* Main.storyboard */,
 				3C658669232BA32F00856667 /* Info.plist */,
 				3C65866F232BA4EE00856667 /* Supporting Files */,
@@ -145,6 +151,8 @@
 			files = (
 				3C658660232BA32F00856667 /* ViewController.swift in Sources */,
 				3C65865E232BA32F00856667 /* AppDelegate.swift in Sources */,
+				3CA8BCD1232BC91C009C1D86 /* Concentration.swift in Sources */,
+				3CA8BCD3232BCB00009C1D86 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
